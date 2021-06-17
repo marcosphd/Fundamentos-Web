@@ -1,0 +1,74 @@
+ /*Estilo da página index.html*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+ .center {
+    text-align: center;
+}
+
+.justfy {
+    text-align: justify;
+}
+.container {
+    display: flex;
+    flex-flow: row  ;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li {
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: rgb(63, 104, 240);
+}   
+/* almenta e diminue o tamanho da foto */
+.img {
+    width:  300px;
+    height: 300px;
+} 
+
+
+.p-30 {
+    padding: 30px;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.tm-social {
+    width:  90px;
+    height: 90px;
+    padding: 15px;
+}
+
+.mb-30 {
+    margin-bottom: 50px;
+}
+
+body {
+    background-color: rgb(36, 35, 35);
+}
+ /*Estilo do Contato index.html*/
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+
+ /*Estilo da Sobre sobre.html*/
