@@ -15,11 +15,15 @@
 .justfy {
     text-align: justify;
 }
+
+
 .container {
     display: flex;
     flex-flow: row  ;
     justify-content: center;
     align-items: center;
+    padding: 0mm;
+    
 }
 
 #menu li {
@@ -36,12 +40,12 @@
 #menu li a:hover {
     color: rgb(63, 104, 240);
 }   
+
 /* almenta e diminue o tamanho da foto */
 .img {
     width:  300px;
     height: 300px;
 } 
-
 
 .p-30 {
     padding: 30px;
@@ -52,17 +56,18 @@
 }
 
 .tm-social {
-    width:  90px;
-    height: 90px;
-    padding: 15px;
+    width:  68px;
+    height: 69px;
+    padding: 13px; 
 }
+
 
 .mb-30 {
     margin-bottom: 50px;
 }
 
 body {
-    background-color: rgb(36, 35, 35);
+    background-color: #574b90;
 }
  /*Estilo do Contato index.html*/
 
